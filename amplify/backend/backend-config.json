@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"pomodorobe44f62d": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}

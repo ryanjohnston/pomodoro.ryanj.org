@@ -1,0 +1,20 @@
+{
+    "develop": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-pomodoro-develop-45251-authRole",
+            "UnauthRoleArn": "arn:aws:iam::784068196117:role/amplify-pomodoro-develop-45251-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::784068196117:role/amplify-pomodoro-develop-45251-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-pomodoro-develop-45251-deployment",
+            "UnauthRoleName": "amplify-pomodoro-develop-45251-unauthRole",
+            "StackName": "amplify-pomodoro-develop-45251",
+            "StackId": "arn:aws:cloudformation:us-east-1:784068196117:stack/amplify-pomodoro-develop-45251/71469ac0-15c3-11ea-aff2-12301089d57f",
+            "AmplifyAppId": "d1nj2kd1z4o6vk"
+        },
+        "categories": {
+            "auth": {
+                "pomodorobe44f62d": {}
+            }
+        }
+    }
+}
