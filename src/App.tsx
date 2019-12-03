@@ -35,15 +35,14 @@ const App: React.FC = () => {
     description: string
   }
 
-  const fetchUser = async () => {
-    const userInfo = await Auth.currentAuthenticatedUser()
-    // console.log(JSON.stringify(userInfo.attributes))
-    setUsername(userInfo.attributes.email)
-  }
-
   useEffect(() => {
+    const fetchUser = async () => {
+      const userInfo = await Auth.currentAuthenticatedUser()
+      console.log(JSON.stringify(userInfo.attributes))
+      setUsername(userInfo.attributes.email)
+    }
     fetchUser()
-  }, [username])
+  }, [])
 
   useEffect(() => {
     const fetchPomodoros = async () => {
